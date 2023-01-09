@@ -1,5 +1,5 @@
 import requests
 
-resp = requests.post("https://getprediction-tqc5taiqdq-lm.a.run.app", files={'file': open('eight.png', 'rb')})
+resp = requests.post("https://ml-cblnbu253a-uc.a.run.app/", files={'file': open('three.png', 'rb')})
 
 print(resp.json())
